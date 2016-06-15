@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+}
+#wrapper{
+    margin: 0 auto;
+    padding:0;
+    border:0;
+    width:1129px;
+    text-align: left;
+
+}
+#header{
+    float: left;
+    width: 1100px;
+    height: 90px;
+    background-color: #efefef;
+    line-height: 90px;
+}
+#header a{
+    font-family: Sans-serif;
+    font-size: 70px;
+    color: #fff;
+    background-color:#c2c2c2;
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: center;
+
+}
+#header a:link,#header a:visited{
+    display: block;
+    width: 372px;
+    height: 90px;
+    
+}
+
+
+#navfirst #nfirst{
+list-style: none;
+float: left;
+display: block;
+width: 155px;height: 55px;
+
+text-align: center;
+}
+#navfirst a {
+    display: inline-block;
+  text-align:center;
+    text-decoration: none; 
+   color:#777;
+   font-size: 20px;
+   padding-top: 15px;
+
+}
+#navfirst a:hover{
+    border-bottom: 3px solid #cb0000;
+
+}
+
+#navsecond,#schedule,#maincontent,#sidebar{
+    float: left;
+}
+#schedule{
+    width: 180px;
+  } 
+#schedule ul{
+    float:left;
+    list-style: none;
+      background-color: #efefef;
+      width: 180px;
+     
+}
+#schedule0{ 
+ 
+    text-align: center;
+    line-height: 40px;
+    height:40px;
+   font-size: 20px;
+    color:#fff;
+    background-color: #c2c2c2;
+}
+#schedule1{ 
+    padding-top: 10px;
+    font-weight: bold;
+color:#000;
+}
+#schedule a{
+    text-decoration: none;
+    color: #000;
+}
+#schedule a:hover{
+    text-decoration: underline;
+}
+#schedule1,#schedule2{
+text-indent: 10px;
+font-size: 12px;
+}
+#schedule3{
+    text-indent: 10px;
+    padding-top: 8px;
+}
+#schedule3 a{
+color:#0479b3;
+font-size: 12px;
+font-weight: bold;
+}
+
+#maincontent{
+    overflow: hidden;
+    width: 720px;
+    padding-left:20px; 
+    padding-top: 15px;
+    padding-bottom: 10px;
+   height:480px;
+
+}
+#answer{
+  background-color: #efefef; 
+}
+#answer h3{
+    font-weight: normal;
+    font-size: 14px;
+}
+#answer p{
+    font-size: 12px;
+    padding-top: 10px;
+    color: #9b3a3a;
+}
+.quiz_question{
+    margin-top: 20px;
+    border-bottom: 1px solid #a7a7a7;
+    
+}
+#maincontent h1{
+ border-bottom: 1px solid #a7a7a7;
+ font-size: 25px;
+ font-weight: normal;
+}
+.quiz_question h2{
+    font-size: 16px;
+}
+.quiz_question input{
+    margin-left: 30px;
+    margin-bottom:5px;
+}
+.quiz_question #submit{
+    margin:0;
+    font-size:14px;
+    height:25px;
+    margin-top: 15px;
+
+}
+#maincontent ul{
+    list-style: none;
+}
+#maincontent form{
+    font-size: 14px;
+    padding-top: 15px;
+}
+#starttime,#stoptime,#usetime{
+    padding-top: 15px;
+   font-size: 14px;
+}
+#sidebar{
+    overflow: hidden;
+    height:480px;
+    margin: 0;
+    padding:0;
+    border:0;
+    width: 180px;
+    background-color: #efefef; 
+    float: left;
+    
+}
+#sidebar h5{
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 9px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+#sidebar .button{
+    background-color: #9b3a3a;
+    color: #fff;
+    position: relative;
+    right: 10px;
+    font-size: 12px;
+}
+#sidebar #search{
+    margin-left:9px; 
+
+}
+#sidebar input{
+    border:1px solid #fff;
+}
+#sidebar p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #c2c2c2;
+    text-align: center;
+    line-height: 40px;
+    height:40px;
+    letter-spacing:5px;
+    font-family:微软雅黑;
+}
+#footer{
+    overflow: hidden;
+    width: 1100px;
+    background-color:#b6b6b6;
+    font-size: 12px;
+   padding-left: 10px;
+   
+   line-height:25px;
+}
