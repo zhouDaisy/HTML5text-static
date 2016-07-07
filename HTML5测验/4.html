@@ -5,104 +5,85 @@
     <title>HTML5测验</title>
     <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="style/HTML5测验.css"/>
-     <script src="style/HTML5测验.js"></script>
+    <script src="script/HTML5测验.js"></script>
 
 </head>
 <body onload="init()">
 <div id="wrapper"><!--总的div包裹-->
-    <div id="header">
-    <a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=html5" title="w3school在线教程">W3School</a>
-    </div><!--header结束-->
-    <div id="navfirst">
+  <div id="header">
+    <a href="#" title="w3school在线教程">W3School</a>
+  </div><!--header结束-->
+  <div id="navfirst">
     <ul class="nfirst">
-    <li id="nfirst"><a href="http://www.w3school.com.cn/h.asp">HTML/CSS</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/b.asp">JavaScript</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/s.asp">Server Side</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/d.asp">ASP.NET</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/x.asp">XML</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/ws.asp">Web Services</a></li>
-    <li id="nfirst"><a href="http://www.w3school.com.cn/w.asp">Web Building</a></li>
+      <li id="nfirst"><a href="#">HTML/CSS</a></li>
+      <li id="nfirst"><a href="#">JavaScript</a></li>
+      <li id="nfirst"><a href="#">Server Side</a></li>
+      <li id="nfirst"><a href="#">ASP.NET</a></li>
+      <li id="nfirst"><a href="#">XML</a></li>
+      <li id="nfirst"><a href="#">Web Services</a></li>
+      <li id="nfirst"><a href="#">Web Building</a></li>
     </ul>
-    </div><!--navfirst结束-->
-    <div id="navsecond">
-        <div id="schedule">
-        <ul >
+  </div><!--navfirst结束-->
+  <div id="navsecond">
+    <div id="schedule">
+      <ul >
         <li id="schedule0"> 课程表</li> 
-      <li id="schedule1"> W3School 测验</li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=html">HTML 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=html5">HTML5 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=xhtml">XHTML 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=css">CSS 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=xml">XML 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=javascript">JavaScript 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=jquery">jQuery 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=sql">SQL 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=asp">ASP 测验</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quiz/quiz.asp?quiz=php">PHP 测验</a></li>
-    </ul>
-    <ul >
+        <li id="schedule1"> W3School 测验</li>
+        <li id="schedule2"><a href="#">HTML 测验</a></li>
+        <li id="schedule2"><a href="#">HTML5 测验</a></li>
+        <li id="schedule2"><a href="#">XHTML 测验</a></li>
+        <li id="schedule2"><a href="#">CSS 测验</a></li>
+        <li id="schedule2"><a href="#">XML 测验</a></li>
+        <li id="schedule2"><a href="#">JavaScript 测验</a></li>
+        <li id="schedule2"><a href="#">jQuery 测验</a></li>
+        <li id="schedule2"><a href="#">SQL 测验</a></li>
+        <li id="schedule2"><a href="#">ASP 测验</a></li>
+        <li id="schedule2"><a href="#">PHP 测验</a></li>
+      </ul>
+      <ul >
         <li id="schedule0"> 选修课</li> 
-      <li id="schedule1"> 建站手册</li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/site/index.asp">网站构建</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/w3c/index.asp">万联网联盟(W3C)</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/browser/index.asp">浏览器信息</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/quality/index.asp">网站品质</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/semweb/index.asp">语义网</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/careers/index.asp">职业规划</a></li>
-      <li id="schedule2"><a href="http://www.w3school.com.cn/hosting/index.asp">网站主机</a></li>
-      <li id="schedule3"><a href="http://www.w3school.com.cn/about/index.asp">关于 W3School</a></li>
-      <li id="schedule3"><a href="http://www.w3school.com.cn/about/about_helping.asp">帮助 W3School</a></li>
-    </ul>
-        </div><!--schedule结束-->
-          <div id="maincontent">
-            <h1>HTML5 测验</h1>
-            <div class="quiz_question">
-            <h2>4. HTML5 中不再支持下面哪个元素？</h2>
-            <ul>
-            <li>
-            <input value="1" name="answer" type="radio"></input>
-             ＜q＞
-            </li>
-            <li>
-            <input value="2" name="answer" type="radio"></input>
-             ＜ins＞
-            </li>
-            <li>
-            <input value="3" name="answer" type="radio"></input>
-             ＜menu＞
-            </li>
-            <li>
-            <input value="4" name="answer" type="radio"></input>
-             ＜font＞
-            </li>
-            </ul>
-            <p>
-            <input type=button value="下一题"onclick="window.open('http://htmlpreview.github.io/?https://github.com/zhouDaisy/HTML5text-static/blob/master/HTML5测验/5.html')" />
-            </p>
-           
-            <p id="starttime">
-            
-            </p>
-            <p id="stoptime" >
-           
-            </p>
-             <p id="usetime">
-            
-            </p>
-            </div>
-        </div><!--maincontent结束-->
-        <div id="sidebar">
-        <h5>SEARCH:</h5>
-        <input title="在此输入搜索内容。" type="text" id="search"></input>
-        <input value="Go" class="button" title="搜索！" type="submit">
-        <p>赞助商链接</p>
-        </div><!--sidebar结束-->
-    </div><!--navsecond结束-->
-    <div id="footer">
+        <li id="schedule1"> 建站手册</li>
+        <li id="schedule2"><a href="#">网站构建</a></li>
+        <li id="schedule2"><a href="#">万联网联盟(W3C)</a></li>
+        <li id="schedule2"><a href="#">浏览器信息</a></li>
+        <li id="schedule2"><a href="#">网站品质</a></li>
+        <li id="schedule2"><a href="#">语义网</a></li>
+        <li id="schedule2"><a href="#">职业规划</a></li>
+        <li id="schedule2"><a href="#">网站主机</a></li>
+        <li id="schedule3"><a href="#">关于 W3School</a></li>
+        <li id="schedule3"><a href="#">帮助 W3School</a></li>
+      </ul>
+    </div><!--schedule结束-->
+    <div id="maincontent">
+      <h1>HTML5 测验</h1>
+      <div class="quiz_question">
+        <h2>4. HTML5 中不再支持下面哪个元素？</h2>
+        <ul>
+          <li><input value="1" name="answer" type="radio"></input>＜q＞</li>
+          <li><input value="2" name="answer" type="radio"></input>＜ins＞</li>
+          <li><input value="3" name="answer" type="radio"></input>＜menu＞</li>
+          <li><input value="4" name="answer" type="radio"></input>＜font＞</li>
+        </ul>
+        <p>
+          <input type=button value="下一题"onclick="window.open('http://htmlpreview.github.io/?https://github.com/zhouDaisy/HTML5text-static/blob/master/HTML5测验/5.html')" />
+        </p>
+        <p id="starttime"></p>
+        <p id="stoptime"></p>
+        <p id="usetime"></p>
+      </div>
+    </div><!--maincontent结束-->
+    <div id="sidebar">
+      <h5>SEARCH:</h5>
+      <input title="在此输入搜索内容。" type="text" id="search"></input>
+      <input value="Go" class="button" title="搜索！" type="submit">
+      <p>赞助商链接</p>
+    </div><!--sidebar结束-->
+  </div><!--navsecond结束-->
+  <div id="footer">
     <p>
-W3School 提供的内容仅用于培训。我们不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。W3School 简体中文版的所有内容仅供测试，对任何法律问题及风险不承担任何责任。当使用本站时，代表您已接受了本站的使用条款和隐私条款。版权所有，保留一切权利。 赞助商：上海赢科投资有限公司。 蒙ICP备06004630号
-</p>
-    </div>
-  </div><!--wrapper结束-->
+     W3School 提供的内容仅用于培训。我们不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。W3School 简体中文版的所有内容仅供测试，对任何法律问题及风险不承担任何责任。当使用本站时，代表您已接受了本站的使用条款和隐私条款。版权所有，保留一切权利。 赞助商：上海赢科投资有限公司。 蒙ICP备06004630号
+    </p>
+  </div>
+</div><!--wrapper结束-->
 </body>
 </html>
